@@ -85,7 +85,7 @@ header {
 @include mediaQuerry("extra-large") {
     header {
         background-color: $color-white;
-        position: sticky;
+        position: fixed;
         .navbar {
             max-height: 50px;
             .navbar-toggler {

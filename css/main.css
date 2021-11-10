@@ -155,8 +155,7 @@ header .navbar .navbar__icon a:hover {
 @media screen and (max-width: 1200px) {
   header {
     background-color: #ffffff;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
   }
   header .navbar {
     max-height: 50px;
@@ -186,6 +185,7 @@ header .navbar .navbar__icon a:hover {
 
 @media screen and (max-width: 1200px) {
   .about {
+    margin-top: 50px;
     height: 500px;
   }
 }
