@@ -367,6 +367,11 @@ header .navbar .navbar__icon a:hover {
   line-height: 1;
 }
 
+.find .find__form form .row .find__input span.find__type {
+  display: inline-block;
+  width: 100%;
+}
+
 .find .find__form form .row .find__input span i {
   color: #b61984;
 }
@@ -375,68 +380,14 @@ header .navbar .navbar__icon a:hover {
   font-size: 13px;
   font-weight: 500;
   color: #181818;
+  display: block;
+  width: 100%;
   line-height: 1;
   border: none;
 }
 
 .find .find__form form .row .find__input span input:focus, .find .find__form form .row .find__input span select:focus, .find .find__form form .row .find__input span textarea:focus {
   outline: none;
-}
-
-.find .find__form form .row .find__input span input {
-  width: 135px;
-}
-
-@media screen and (max-width: 1200px) {
-  .find .find__form form .row .find__input span input {
-    width: 100px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .find .find__form form .row .find__input span input {
-    width: 255px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .find .find__form form .row .find__input span input {
-    width: 165px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .find .find__form form .row .find__input span input {
-    width: 140px;
-  }
-}
-
-.find .find__form form .row .find__input span select, .find .find__form form .row .find__input span textarea {
-  width: 340px;
-}
-
-@media screen and (max-width: 1200px) {
-  .find .find__form form .row .find__input span select, .find .find__form form .row .find__input span textarea {
-    width: 265px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .find .find__form form .row .find__input span select, .find .find__form form .row .find__input span textarea {
-    width: 580px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .find .find__form form .row .find__input span select, .find .find__form form .row .find__input span textarea {
-    width: 400px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .find .find__form form .row .find__input span select, .find .find__form form .row .find__input span textarea {
-    width: 350px;
-  }
 }
 
 .find .find__form form button {

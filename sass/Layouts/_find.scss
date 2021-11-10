@@ -33,45 +33,21 @@
                     gap: 0 10px;
                     span {
                         line-height: 1;
+                        &.find__type{
+                            display: inline-block;
+                            width: 100%;
+                        }
                         i {
                             color: $color-purple
                         }
                         input, select, textarea {
                             @include styleTxt($fz-1, $fw-3, $color-black);
+                            display: block;
+                            width: 100%;
                             line-height: 1;
                             border: none;
                             &:focus {
                                 outline: none;
-                            }
-                        }
-                        input {
-                            width: 135px;
-                            @include mediaQuerry("extra-large") {
-                                width: 100px;
-                            }
-                            @include mediaQuerry("large") {
-                                width: 255px;
-                            }
-                            @include mediaQuerry("medium") {
-                                width: 165px;
-                            }
-                            @media screen and (max-width: 540px) {
-                                width: 140px;
-                            }
-                        }
-                        select, textarea {
-                            width: 340px;
-                            @include mediaQuerry("extra-large") {
-                                width: 265px;
-                            }
-                            @include mediaQuerry("large") {
-                                width: 580px;
-                            }
-                            @include mediaQuerry("medium") {
-                                width: 400px;
-                            }
-                            @media screen and (max-width: 540px) {
-                                width: 350px;
                             }
                         }
                     }
