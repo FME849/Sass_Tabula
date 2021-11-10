@@ -48,10 +48,7 @@ footer {
                     input {
                         padding: 15px 10px;
                         text-align: center;
-                        @include styleTxt($fz-1, $fw-4, $color-black);
-                        border-radius: 50px;
                         width: 100%;
-                        background: transparent;
                         &:focus {
                             outline: none;
                         }
@@ -59,6 +56,9 @@ footer {
                 }
                 .footer__mail {
                     input {
+                        border-radius: 50px;
+                        @include styleTxt($fz-1, $fw-4, $color-black);
+                        background: transparent;
                         border: 1px solid rgba($color: $color-white, $alpha: .1);
                         color: $color-white;
                         transition: all .6s;
@@ -72,13 +72,8 @@ footer {
                 }
                 .footer__submit {
                     input {
-                        background-color: $color-white;
-                        transition: all .6s;
-                        border: 1px solid $color-white;
-                        &:hover {
-                            background: transparent;
-                            color: $color-white;
-                        }
+                        font-size: $fz-1;
+                        font-weight: $fw-4;
                     }
                 }
             }

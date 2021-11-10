@@ -78,12 +78,9 @@
                 }
             }
             button {
-                @include styleBtn($color-purple, 1px solid $color-purple, $color-white);
-                @include styleTxt($fz-1 - 1, $fw-5, $color-white);
+                font-size: $fz-1 - 1;
+                font-weight: $fw-5;
                 padding: 10px 50px;
-                &:hover {
-                    @include styleBtn($color-white, 1px solid $color-purple, $color-purple)
-                }
             }
         }
     }
